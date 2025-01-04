@@ -1,0 +1,42 @@
+export const foodCoutrts = [{
+    id:10,
+    foodCourtName: "Pizza Hut",
+    foodImage : 'pizza.jpg',
+    description : "Our Test Kitchen calls this classic pizza recipe an old-school supreme pizza. This Supreme Pizza ",
+    menu:["Neapolitan Pizza.",
+        "Chicago-Style Pizza.",
+        "New York-Style Pizza.",
+        "Sicilian Pizza.",
+        "Greek Pizza.",
+        "California Pizza",
+        "St. Louis Pizza.",
+        "Detroit-Style Pizza"]
+},
+{
+    id:20,
+    foodCourtName: "Burger King",
+    foodImage : 'burger.jpg',
+    description : "meat or other food made into a round, fairly flat shape, fried and usually eaten between two halves of a bread roll ",
+    menu: ["Hamburger.", 
+        "Turkey Burger",
+        "Classic Burger", 
+        "Lamb Burger",
+        "Chicken Burger",
+        "Specialty Burger",
+       "Cheese Burger",
+        "Bacon Burger"]
+},
+{
+    id:30,
+    foodCourtName: "Sandwich Shop",
+    foodImage : 'sandwich.jpg',
+    description : "Have an open-faced sandwich, with one slice of bread instead of two, mustard instead of butter, and some vegetable sticks to munch on.",
+    menu : ["Coronation chicken",
+        "Ham and cheese",
+        "Pastrami",
+        "BLT",
+        "Egg and cress",
+        "Cheese and pickle",
+        "Christmas leftovers",
+        "Prawn mayonnaise"]
+}]
