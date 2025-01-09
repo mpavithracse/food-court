@@ -4,7 +4,6 @@ const About = () =>{
 
     return(
         <>
-        <Header/>
           <div class="About">
             <h1>About us </h1>
             <p>Food courts consist of a number of vendors at food stalls or service counters.

@@ -16,7 +16,6 @@ const MenuComp = () => {
 
     return (
         <>
-            <Header />
             <h1>Welcome to Maha's food court</h1>
             <h3>Please find the menu for {shop.foodCourtName}</h3>
             <ul>

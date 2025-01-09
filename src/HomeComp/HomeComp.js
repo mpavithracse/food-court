@@ -6,9 +6,7 @@ import Header from "../HeaderComp/Header"
 const HomeComp = () =>{
 
     return<>
-    <Header/>
     <BodyComp/>
-    <Footer/>
     </>
 }
 

@@ -30,7 +30,7 @@ export const foodCoutrts = [{
     id:30,
     foodCourtName: "Sandwich Shop",
     foodImage : 'sandwich.jpg',
-    description : "Have an open-faced sandwich, with one slice of bread instead of two, mustard instead of butter, and some vegetable sticks to munch on.",
+    description : "Have an open-faced sandwich, with one slice of bread instead of two, mustard instead of butter",
     menu : ["Coronation chicken",
         "Ham and cheese",
         "Pastrami",

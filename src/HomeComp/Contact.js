@@ -4,7 +4,6 @@ import Header from "../HeaderComp/Header";
 const Contact = () =>{
 
     return (<>
-    <Header/>
     <div class="Contact">
             <h4>Contact</h4>
             <p>9092978963</p>

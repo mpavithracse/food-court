@@ -23,18 +23,10 @@ const FromComp = () =>{
     }
      
     foodCoutrts.push(shopvalue);
-
     console.log("foodCoutrts", foodCoutrts)
-
   }
 
-
-
-
-
-
     return(<>
-    <Header/>
     <div className='FormComp'>
     <h2> Welcome to Maha's Food Court</h2>
     <h4>Join your business to our community</h4>

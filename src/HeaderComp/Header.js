@@ -34,9 +34,9 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className="searchbar">
+      {/* <div className="searchbar">
         <input type="text" placeholder="Search" />
-      </div>
+      </div> */}
     </div>
   );
 };
