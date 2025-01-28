@@ -16,7 +16,7 @@ export const foodCoutrts = [{
     id:20,
     foodCourtName: "Burger King",
     foodImage : 'burger.jpg',
-    description : "meat or other food made into a round, fairly flat shape, fried and usually eaten between two halves of a bread roll ",
+    description : "Meat or other food made into a round, fairly flat shape, fried and usually eaten between two halves of a bread roll ",
     menu: ["Hamburger.", 
         "Turkey Burger",
         "Classic Burger", 
@@ -39,4 +39,54 @@ export const foodCoutrts = [{
         "Cheese and pickle",
         "Christmas leftovers",
         "Prawn mayonnaise"]
-}]
+},
+{
+    id:40,
+    foodCourtName: "KFC",
+    foodImage : 'https://i.ytimg.com/vi/3CVDrAkhDmI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAsuColMDtymCLwvjZPUJX3UGBsqg',
+    description : "KFC Corporation,doing business as KFC (also commonly referred to by its historical name Kentucky Fried Chicken), is an American fast food restaurant chain that specializes in fried chicken. Headquartered in Louisville, Kentucky, it is the world's second-largest restaurant chain (as measured by sales) after McDonald's, with over 30,000 locations globally in 150 countries as of April 2024",
+    menu : ["Fried Chicken", "Zinger Burger", "Fried Chicken burger", "Drumstick","Wings-large", "Chicken popcorn","pepsi", "7Up"]
+},
+{
+    id:42,
+    foodCourtName: "KFC",
+    foodImage : 'https://i.ytimg.com/vi/3CVDrAkhDmI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAsuColMDtymCLwvjZPUJX3UGBsqg',
+    description : "KFC Corporation,doing business as KFC (also commonly referred to by its historical name Kentucky Fried Chicken), is an American fast food restaurant chain that specializes in fried chicken. Headquartered in Louisville, Kentucky, it is the world's second-largest restaurant chain (as measured by sales) after McDonald's, with over 30,000 locations globally in 150 countries as of April 2024",
+    menu : ["Fried Chicken", "Zinger Burger", "Fried Chicken burger", "Drumstick","Wings-large", "Chicken popcorn","pepsi", "7Up"]
+},
+{
+    id:43,
+    foodCourtName: "KFC",
+    foodImage : 'https://i.ytimg.com/vi/3CVDrAkhDmI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAsuColMDtymCLwvjZPUJX3UGBsqg',
+    description : "KFC Corporation,doing business as KFC (also commonly referred to by its historical name Kentucky Fried Chicken), is an American fast food restaurant chain that specializes in fried chicken. Headquartered in Louisville, Kentucky, it is the world's second-largest restaurant chain (as measured by sales) after McDonald's, with over 30,000 locations globally in 150 countries as of April 2024",
+    menu : ["Fried Chicken", "Zinger Burger", "Fried Chicken burger", "Drumstick","Wings-large", "Chicken popcorn","pepsi", "7Up"]
+},
+{
+    id:34,
+    foodCourtName: "Sandwich Shop",
+    foodImage : 'sandwich.jpg',
+    description : "Have an open-faced sandwich, with one slice of bread instead of two, mustard instead of butter",
+    menu : ["Coronation chicken",
+        "Ham and cheese",
+        "Pastrami",
+        "BLT",
+        "Egg and cress",
+        "Cheese and pickle",
+        "Christmas leftovers",
+        "Prawn mayonnaise"]
+},
+{
+    id:35,
+    foodCourtName: "Sandwich Shop",
+    foodImage : 'sandwich.jpg',
+    description : "Have an open-faced sandwich, with one slice of bread instead of two, mustard instead of butter",
+    menu : ["Coronation chicken",
+        "Ham and cheese",
+        "Pastrami",
+        "BLT",
+        "Egg and cress",
+        "Cheese and pickle",
+        "Christmas leftovers",
+        "Prawn mayonnaise"]
+},
+]

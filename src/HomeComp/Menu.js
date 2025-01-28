@@ -33,11 +33,9 @@ const Menu = () =>{
                 <img src ="edit-icon.png" onClick={UpdateDate} width={20} height={20}/>
                 </div>
                 <img src={shop.foodImage} width={200} height={200} />
-                <p>
-                  {shop.description}
-                </p>
+              
                 <div className="boxHeader">
-                <button className = "getMenu" onClick={()=>getMenu(shop.id)}>Get Menu</button>
+                <button className = "getMenuButton" onClick={()=>getMenu(shop.id)}>Get Menu</button>
                 <img src="delete-icon.jpg"  onClick= {()=>deleteShop(shop.id)}width={20} height={20} />
                 </div>
                 </div>

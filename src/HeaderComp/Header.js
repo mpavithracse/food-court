@@ -25,12 +25,12 @@ const Header = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <h1>Maha's Food Court</h1>
+        <h1>MAHA'S FOOD COURT</h1>
         <ul className="listitems no-bullets">
-          <li onClick={handleHomeClick}>Home | </li>
-          <li onClick={handleMenuClick}>Menus | </li>
-          <li onClick={handleAboutClick}>About Us |</li>
-          <li onClick={handleContactClick}>Contact |</li>
+          <li onClick={handleHomeClick}>HOME</li>
+          <li onClick={handleMenuClick}>MENU</li>
+          <li onClick={handleAboutClick}>ABOUT US</li>
+          <li onClick={handleContactClick}>CONTACT</li>
         </ul>
       </nav>
 

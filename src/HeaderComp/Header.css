@@ -4,8 +4,8 @@
   
   }
   .navbar{
-    color: white;
-    background-color: black;
+    color: rgb(130, 51, 31);
+    background-color: rgba(232, 177, 157, 0.959);
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -16,16 +16,16 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    color: #5D4037;
+    column-gap: 10px;
   }
   /* ul{
     margin-left: 60%;
   } */ 
   li{
-    color: grey;
     cursor: pointer;
-  }
-  li:hover{
-    color: white;
+        color: #5D4037;
+
   }
   input{
     width: 60%;
@@ -39,7 +39,7 @@
   } */
 
   
-  .box{
+  /* .box{
     border-color: black;
     border-width:2px;
     border-style: solid;
@@ -59,8 +59,8 @@
     border-style: solid;
     display: inline-block;
     width: 205px;
-  }
-  .box:hover{
+  } */
+  /* .box:hover{
     background-color: black;
     color: white;
   }
@@ -71,12 +71,12 @@
   .box2:hover{
     background-color: black;
     color: white;
-  }
+  } */
   
-  .menus{
+  /* .menus{
         text-align:center;
   
-    }
+    } */
   .about{
     text-align: center;
     margin-top: 20px;
