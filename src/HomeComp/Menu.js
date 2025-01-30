@@ -1,13 +1,13 @@
-import { foodCoutrts } from "../foodcourts";
 import Header from "../HeaderComp/Header";
 import { useNavigate } from "react-router-dom";
 import "./Menu.css";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { FoodCourtContext } from "../FoodCourtContext";
 
 
 const Menu = () =>{
 
-  const [shops, setShops] = useState(foodCoutrts)
+  const {foodCourt, setFoodCourt} = useContext(FoodCourtContext);
 
   const  navigate = useNavigate()
   const getMenu = (id) =>{
@@ -16,21 +16,21 @@ const Menu = () =>{
 
   const deleteShop = (id) =>{
 
-    const updatedShops = shops.filter(item => item.id !== id)
-    setShops(updatedShops);
+    const updatedShops = foodCourt.filter(item => item.id !== id)
+    setFoodCourt(updatedShops);
 
   }
 
-  const UpdateDate = () => {
-    navigate('/Form')
+  const UpdateDate = (id) => {
+    navigate(`/Form/${id}`)
   }
     return(<>
      <div class="Menus">
-          {shops.map((shop) => (
+          {foodCourt.map((shop) => (
               <div class="box">
                 <div className="boxHeader">
                 <h1>{shop.foodCourtName}</h1>
-                <img src ="edit-icon.png" onClick={UpdateDate} width={20} height={20}/>
+                <img src ="edit-icon.png" onClick={()=>UpdateDate(shop.id)} width={20} height={20}/>
                 </div>
                 <img src={shop.foodImage} width={200} height={200} />
               

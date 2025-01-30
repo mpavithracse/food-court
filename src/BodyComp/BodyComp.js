@@ -10,6 +10,9 @@ const BodyComp = () => {
   const handleExploreClick = (id) =>{
     navigate(`/Menu`)
   }
+  const handleAddStore = () =>{
+    navigate(`/Form`)
+  }
 
   return (
     <div className="foodCourtBody">
@@ -19,6 +22,7 @@ const BodyComp = () => {
         <input type="text" placeholder="Search" />
       </div>
       <button className="exploreButton" onClick={handleExploreClick}>Explore</button>
+      <button className="exploreButton" onClick={handleAddStore}>Add Store</button>
       </div>
     </div>
   );

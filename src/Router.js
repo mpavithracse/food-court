@@ -7,7 +7,7 @@ import Menu from './HomeComp/Menu';
 import MenuComp from './MenuComp/MenuComp';
 import FromComp from './FormComp/FormComp';
 
-const Router = () =>{
+const Router = (props) =>{
 
     return(
         <Routes>
@@ -17,6 +17,7 @@ const Router = () =>{
         <Route path="/Contact" element={<Contact/>} />
         <Route path="/Menu" element={<Menu/>} />
         <Route path="/MenuComp/:id" element={<MenuComp />} />
+        <Route path='/Form/:id' element = {<FromComp/>}/>
         <Route path='/Form' element = {<FromComp/>}/>
       </Routes>
     )
